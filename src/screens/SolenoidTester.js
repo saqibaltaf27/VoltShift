@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, Switch } from 'react-native';
-import InputField from '../components/inputField';
+import InputField from '../components/InputField';
 import WarningText from '../components/WarningText';
 import colors from '../theme/colors';
 

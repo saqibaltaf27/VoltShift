@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import InputField from '../components/inputField';
+import InputField from '../components/InputField';
 import colors from '../theme/colors';
 
 export default () => {

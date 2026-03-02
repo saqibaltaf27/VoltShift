@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { SessionContext } from '../store/SessionContext';
 import LargeButton from '../components/LargeButton';
-import InputField from '../components/inputField';
+import InputField from '../components/InputField';
 import colors from '../theme/colors';
 
 export default ({ navigation }) => {
@@ -13,7 +13,7 @@ export default ({ navigation }) => {
   const start = () => {
     if (!vin) return;
     setSession({ vin, date: new Date().toLocaleString() });
-    navigation.navigate("ComponentSelectScreen");
+    navigation.navigate("ComponentSelect");
   };
 
   return (

@@ -29,7 +29,7 @@ export default ({navigation}) => {
             data={components}
             keyExtractor={i=>i.id.toString()}
             renderItem={({item}) => (
-                <Text style={{fontSize: 20, color: '#fff'}}>{item.name}</Text>
+                <Text style={{fontSize: 20, color: '#201818'}}>{item.name}</Text>
             )} />
 
         </View>
