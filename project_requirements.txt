@@ -1,0 +1,28 @@
+Project-Name: VoltShift - Precision Transmission & Electrical Diagnostic Logger
+
+Overview: Technicians create reusable component profiles containing expected measurement ranges. During live diagnostic sessions for vehicles.
+This will replace manual work. Also actual readings are compared automatically against these references.
+
+Features:
+1. Component Library Management: Users can create components, define resistance ranges, store voltage expectations, persist data locally offline.
+2. Diagnostic Session: Technician starts a session using Vehicle VIN, Date & Time, selected components
+3. Diagnostic Modules: Solenoid Tester, Voltage Drop Calculator, Fluid Health.
+4. Visual Warning System
+5. Report Export Functionality
+6. Offline Requirements (No Internet or APIs dependency)
+7. UI/UX polisheness
+
+Deliverables:
+1. Codebase: A ZIP file containing the complete source code (React Native, Flutter, or Native Android).
+2. Documentation: A README file explaining the data architecture and how to build/run the project using VS Code and the Android emulator.
+3. Project Repository: A public GitHub repository link containing the version-controlled history.
+4. Demonstration: A screen recording (MP4) or a series of screenshots showing a user:
+    - Adding a new component to the Library.
+    - Conducting a live diagnostic session.
+    - Triggering an "out of spec" warning.
+    - Exporting the final diagnostic report.
+
+Tech-Stack: 
+    - React Native(CLI)
+    - react-native-sqlite-storage
+    
